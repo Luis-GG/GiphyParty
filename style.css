@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background-color: salmon;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    font-size: 5rem;
+}
+
+form{
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+
+#deleteBtn{
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 10px;
+    border: none;
+    height: 100%;
+    background-color: rgba(216, 0, 0, 0.822);
+}
+
+#deleteBtn:hover{
+    background-color: rgba(139, 0, 0, 0.822);
+}
+
+#searchBtn {
+    border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+    margin-left: 10px;
+    border: none;
+    /* width: 4.5rem; */
+    height: 100%;
+    background-color: rgba(196, 196, 196, 0.815);
+}
+
+#searchBtn:hover{
+    background-color:  rgba(180, 180, 180, 0.466);
+}
+
+#display {
+    margin-top: 15px;
+    width: 95%;
+    height: 100%;
+}
+
+input {
+    border-radius: 5px;
+    height: 2rem;
+    width: 50%;
+}
+
+img{
+    margin: 12px;
+    /* width: 200px;
+    height: 150px; */
+}
+
